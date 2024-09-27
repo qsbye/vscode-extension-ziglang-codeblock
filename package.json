@@ -1,7 +1,7 @@
 {
   "name": "ziglang-codeblock",
   "displayName": "Markdown fenced code block of Zig Language",
-  "description": "",
+  "description": "在markdown代码块中支持zig语言",
   "version": "0.0.1",
   "publisher": "qsbye",
   "license": "MIT",
