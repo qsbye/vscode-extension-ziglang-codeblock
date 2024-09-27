@@ -1,0 +1,41 @@
+{
+  "name": "ziglang-codeblock",
+  "displayName": "Markdown fenced code block Of Zig Language",
+  "description": "",
+  "version": "0.0.1",
+  "publisher": "qsbye",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/qsbye/vscode-extension-ziglang-codeblock.git"
+  },
+  "bugs": {
+    "url": "https://github.com/qsbye/vscode-extension-ziglang-codeblock/issues"
+  },
+  "engines": {
+    "vscode": "^1.8.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "superjs-injection"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "superjs-injection",
+        "scopeName": "markdown.zig.codeblock",
+        "path": "./syntaxes/codeblock.json",
+        "injectTo": [
+          "text.html.markdown"
+        ],
+        "embeddedLanguages": {
+          "meta.embedded.block.zig": "zig"
+        }
+      }
+    ]
+  },
+  "dependencies": {  }
+}
